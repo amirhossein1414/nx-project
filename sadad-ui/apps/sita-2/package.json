@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "start": "vite --host",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "name": "@sadad-ui/sita-2",
   "version": "0.0.1",
   "private": true
