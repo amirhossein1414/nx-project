@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@sadad-ui/base": ["libs/base/src/index.ts"]
+    },
     "composite": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,
